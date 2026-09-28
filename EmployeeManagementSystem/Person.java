@@ -9,12 +9,6 @@ public abstract class Person {
         this.salary = salary;
     }
 
-    
-    Person(String name, double salary, boolean b) {
-        this.name = name;
-        this.salary = salary;
-    }
-
     public void login(){
         System.out.println("Login....");
     }
